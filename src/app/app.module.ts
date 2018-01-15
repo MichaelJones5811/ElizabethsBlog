@@ -9,12 +9,16 @@ import { routes } from './app.routing';
 import { keyframes } from '@angular/core/src/animation/dsl';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SideBarComponent } from './side-bar/side-bar.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    SideBarComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,38 +1,47 @@
-<nav class="navbar navbar-static">
-  <div class="container">
-    <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="glyphicon glyphicon-chevron-down"></span>
-    </a>
-    <div class="nav-collapse collase">
-      <ul class="nav navbar-nav">  
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-      <ul class="nav navbar-right navbar-nav">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
-          <ul class="dropdown-menu" style="padding:12px;">
-              <form class="form-inline">
-                 <div class="input-group">
-                   <input type="text" class="form-control" placeholder="Search">
-                   <div class="input-group-btn">
-                <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
-                   </div>
-                </div>
-              </form>
-            </ul>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">The God Box </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <i class="glyphicon glyphicon-chevron-down"></i></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Profile</a></li>
-            <li class="divider"></li>
-            <li><a href="#">About</a></li>
-           </ul>
-        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
       </ul>
-    </div>		
+      <ul class="nav navbar-nav navbar-right">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="btnLogin">  Login </a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#"><input type="email" placeholder="email" id="txtEmail"></a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><input type="password" placeholder="password" id="txtPassword"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="btnLogOut" > Log Out</a>
+      </li>
+    </ul>
   </div>
-</nav><!-- /.navbar -->
+  </nav>
