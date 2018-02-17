@@ -28,9 +28,12 @@
     "core-js": "^2.4.1",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
+    "handlebars": "^4.0.11",
+    "install": "^0.10.4",
     "jquery": "^3.2.1",
     "mongodb": "^2.2.33",
     "mongoose": "^4.12.2",
+    "npm": "^5.6.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "popper.js": "^1.12.9",
@@ -38,7 +41,7 @@
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "1.4.4",
+    "@angular/cli": "^1.5.3",
     "@angular/compiler-cli": "^4.2.4",
     "@angular/language-service": "^4.2.4",
     "@types/jasmine": "~2.5.53",
