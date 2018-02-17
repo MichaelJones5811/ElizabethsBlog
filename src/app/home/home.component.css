@@ -1,6 +1,15 @@
-jumbotron {
-    border: 2px;
-}
-#border{
-    border-style: solid;
-}
+.container {
+    padding: 16px;
+    margin-top: 25px;
+    
+    }
+    
+    
+    img{
+        width: 300px;
+        height: 425px;
+        border-style: inset;
+        border-width: 5px,5px,5px,5px;
+        border-color: rgba(238, 238, 134, 0.685);
+       
+    }

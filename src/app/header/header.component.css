@@ -1,5 +1,7 @@
-img {
-   height: 275px;
-   width: 100%; 
-   margin-bottom: 15px;
-}
+.top-container {
+    margin-top: 58px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Pacifico";
+    color: rgba(238, 238, 134, 0.685);
+  }

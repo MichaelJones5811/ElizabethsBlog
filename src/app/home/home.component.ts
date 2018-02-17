@@ -1,3 +1,4 @@
+import { AdminServiceService } from './../admin-service.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  constructor() { }
+ blogArray = [];
+  constructor(private _adminServiceService: AdminServiceService) { }
 
   ngOnInit() {
+    this.retrieveBlog();
   }
+  retrieveBlog(){
+    this._adminServiceService.getBlog().subscribe(
+      res =>{
+        this.blogArray = res;
+  
+        
+      }
+    )
 
+  }
 }
