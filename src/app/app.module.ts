@@ -13,6 +13,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CreateBlogComponent } from './create-blog/create-blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { ArticlesComponent } from './articles/articles.component';
+import { Article0Component } from './articles/article0/article0.component';
+import { Article1Component } from './articles/article1/article1.component';
+import { Article2Component } from './articles/article2/article2.component';
+import { ArchiveComponent } from './archive/archive.component';
+import { ConfessionComponent } from './archive/confession/confession.component';
+import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +31,15 @@ import { CreateBlogComponent } from './create-blog/create-blog.component';
     SideBarComponent,
     LandingPageComponent,
     CreateBlogComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    ArticlesComponent,
+    Article0Component,
+    Article1Component,
+    Article2Component,
+    ArchiveComponent,
+    ConfessionComponent,
+    JeremiahComponent
   ],
   imports: [
     BrowserModule,

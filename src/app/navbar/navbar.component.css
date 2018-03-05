@@ -1,5 +1,5 @@
 .navbar   {
-    background: rgba(238, 238, 134, 0.685);
+    background: rgb(255, 254, 254);
     
     width: 100%;
     padding: 10px 16px;
@@ -11,10 +11,10 @@
     background: rgba(238, 238, 134, 0.685);
 }
 .dropdown-item{
-    color:rgba(12, 11, 11, 0.986);
+    color:rgb(255, 254, 254);
 }
  .navbar-light .navbar-nav .nav-link    {
-    color:rgba(12, 11, 11, 0.986);
+    color:rgba(255, 254, 254);
 }
 .navbar-brand{
     color:rgba(12, 11, 11, 0.986);

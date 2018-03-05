@@ -35,13 +35,13 @@
     "npm": "^5.6.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
-    "popper.js": "^1.12.9",
+    "popper.js": "^1.13.0",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "^1.5.3",
-    "@angular/compiler-cli": "^4.2.4",
+    "@angular/cli": "^1.6.0",
+    "@angular/compiler-cli": "^4.4.6",
     "@angular/language-service": "^4.2.4",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",

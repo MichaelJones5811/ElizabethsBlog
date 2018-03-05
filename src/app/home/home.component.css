@@ -1,15 +1,50 @@
 .container {
     padding: 16px;
-    margin-top: 25px;
+    margin-top: 10px;
+    text-align: center;
     
+   
+    }
+    .carousel-caption {
+        top: 0;
+        
+        
     }
     
-    
-    img{
-        width: 300px;
-        height: 425px;
-        border-style: inset;
-        border-width: 5px,5px,5px,5px;
+    .imgStyle0{
+        border: solid;
         border-color: rgba(238, 238, 134, 0.685);
-       
+        height: 500px;
+        opacity: 0.75;
     }
+    .imgStyle1{
+        border: solid;
+        border-color: rgba(238, 238, 134, 0.685);
+        height: 500px;
+        opacity: 0.5;
+    }
+    .imgStyle2{
+        border: solid;
+        border-color: rgba(238, 238, 134, 0.685);
+        height: 500px;
+        opacity: 0.5;
+    }
+    #article0Style{
+        overflow: hidden;
+        text-align: left;
+        height: 70%;
+        color: ghostwhite;
+        background:transparent;
+    }
+    #article1Style{
+        overflow: hidden;
+        text-align: left;
+        height: 50%;
+    }
+    #article2Style{
+        overflow: hidden;
+        text-align: left;
+        height: 50%;
+    }
+   
+   
