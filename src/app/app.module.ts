@@ -21,6 +21,8 @@ import { Article2Component } from './articles/article2/article2.component';
 import { ArchiveComponent } from './archive/archive.component';
 import { ConfessionComponent } from './archive/confession/confession.component';
 import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
+import { IndexComponent } from './archive/index/index.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -39,7 +41,9 @@ import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
     Article2Component,
     ArchiveComponent,
     ConfessionComponent,
-    JeremiahComponent
+    JeremiahComponent,
+    IndexComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,5 @@
+import { AboutComponent } from './about/about.component';
+import { IndexComponent } from './archive/index/index.component';
 import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
 import { ConfessionComponent } from './archive/confession/confession.component';
 import { ArchiveComponent } from './archive/archive.component';
@@ -41,7 +43,13 @@ export const routes: Routes = [
         component: ArchiveComponent,
         children: [
             { path: 'confession', component: ConfessionComponent },
-            { path: 'jeremiah', component: JeremiahComponent }
+            { path: 'jeremiah', component: JeremiahComponent },
+            { path: 'index', component: IndexComponent }
         ]
+    },
+    {
+        path: 'about',
+        component: AboutComponent
     }
+
 ];

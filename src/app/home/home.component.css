@@ -12,20 +12,20 @@
     }
     
     .imgStyle0{
-        border: solid;
-        border-color: rgba(238, 238, 134, 0.685);
+        border: solid 7px;
+        border-color: rgb(241, 241, 114);
         height: 500px;
         opacity: 0.75;
     }
     .imgStyle1{
-        border: solid;
-        border-color: rgba(238, 238, 134, 0.685);
+        border: solid 7px;
+         border-color: rgb(241, 241, 114);
         height: 500px;
         opacity: 0.5;
     }
     .imgStyle2{
-        border: solid;
-        border-color: rgba(238, 238, 134, 0.685);
+        border: solid 7px;
+         border-color: rgb(241, 241, 114);
         height: 500px;
         opacity: 0.5;
     }
@@ -34,12 +34,12 @@
         text-align: left;
         height: 70%;
         color: ghostwhite;
-        background:transparent;
+       
     }
     #article1Style{
         overflow: hidden;
         text-align: left;
-        height: 50%;
+        height: 80%;
     }
     #article2Style{
         overflow: hidden;
