@@ -23,6 +23,9 @@ import { ConfessionComponent } from './archive/confession/confession.component';
 import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
 import { IndexComponent } from './archive/index/index.component';
 import { AboutComponent } from './about/about.component';
+import { GuiltComponent } from './archive/guilt/guilt.component';
+import { SmolderingStubsComponent } from './archive/smoldering-stubs/smoldering-stubs.component';
+import { AnEndComponent } from './archive/an-end/an-end.component';
 
 
 @NgModule({
@@ -43,7 +46,10 @@ import { AboutComponent } from './about/about.component';
     ConfessionComponent,
     JeremiahComponent,
     IndexComponent,
-    AboutComponent
+    AboutComponent,
+    GuiltComponent,
+    SmolderingStubsComponent,
+    AnEndComponent
   ],
   imports: [
     BrowserModule,

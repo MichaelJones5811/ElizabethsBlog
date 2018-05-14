@@ -8,7 +8,7 @@ import { JeremiahComponent } from '../jeremiah/jeremiah.component';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent implements OnInit {
-  articleArr = ['Confession', 'Jeremiah', '3', '4', '5'];
+  articleArr = ['Confession', 'Jeremiah', 'Guilt', 'Smoldering', 'An End'];
 
 
   constructor() { }

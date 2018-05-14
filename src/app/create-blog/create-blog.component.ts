@@ -12,12 +12,12 @@ export class CreateBlogComponent implements OnInit {
   serverMessage = '';
   ngOnInit() {
   }
-  onSubmit(f){
+  onSubmit(f) {
     this._adminServiceService.postBlog(f.value)
     .subscribe(info => {
       if (info.message) {
         this.serverMessage = info.message;
       }
 }
-    )}
+    ); }
 }

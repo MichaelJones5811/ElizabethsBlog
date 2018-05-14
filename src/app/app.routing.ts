@@ -1,3 +1,4 @@
+import { AnEndComponent } from './archive/an-end/an-end.component';
 import { AboutComponent } from './about/about.component';
 import { IndexComponent } from './archive/index/index.component';
 import { JeremiahComponent } from './archive/jeremiah/jeremiah.component';
@@ -14,6 +15,8 @@ import { AppComponent } from './app.component';
 import { Routes } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
+import { GuiltComponent } from './archive/guilt/guilt.component';
+import { SmolderingStubsComponent } from './archive/smoldering-stubs/smoldering-stubs.component';
 
 
 
@@ -44,12 +47,16 @@ export const routes: Routes = [
         children: [
             { path: 'confession', component: ConfessionComponent },
             { path: 'jeremiah', component: JeremiahComponent },
-            { path: 'index', component: IndexComponent }
+            { path: 'index', component: IndexComponent },
+            { path: 'guilt', component: GuiltComponent },
+            { path: 'smoldering', component: SmolderingStubsComponent},
+            { path: 'an end', component: AnEndComponent}
         ]
     },
     {
         path: 'about',
         component: AboutComponent
     }
+
 
 ];

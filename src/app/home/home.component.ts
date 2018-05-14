@@ -13,14 +13,14 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.retrieveBlog();
   }
-  retrieveBlog(){
+  retrieveBlog() {
     this._adminServiceService.getBlog().subscribe(
-      res =>{
+      res => {
         this.blogArray = res;
-  
-        
+
+
       }
-    )
+    );
 
   }
 }
