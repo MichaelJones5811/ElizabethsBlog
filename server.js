@@ -10,7 +10,7 @@ const session = require("express-session");
 const cookieParser = require('cookie-parser');
 
 // Connect
-const db = "mongodb://localhost/ElizabethBlog";
+const db = "mongodb://localhost/godbox";
 useMongoClient: true;
 mongoose.Promise = global.Promise;
 //connect and show any mongoose errors
@@ -39,6 +39,7 @@ let response = {
 
 // API file for interacting with MongoDB
 const blog = require('./server/routes/blog');
+const item = require('./server/routes/item');
 
 const auth = require("./server/routes/auth");
 
@@ -63,7 +64,7 @@ app.use(function(req, res, next) {
 });
 // API location
 app.use('/blogapi', blog);
-
+app.use('/itemapi', item);
 app.use("/auth", auth);
 require('./server/config/passport.js')(passport);
 

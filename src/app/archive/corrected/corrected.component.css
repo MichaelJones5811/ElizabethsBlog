@@ -1,0 +1,12 @@
+.container {  
+    background: rgb(230, 165, 236);
+    font-weight: 700px;
+    font-size: 26px;
+    /* text-shadow: 1px 1px #111313; */
+    letter-spacing: 2px;
+    height: 100%;
+    text-align: left;
+    /* border: solid rgb(246, 103, 51); */
+    color: rgb(84, 111, 114);
+    font-family:'Lobster', cursive;
+   }

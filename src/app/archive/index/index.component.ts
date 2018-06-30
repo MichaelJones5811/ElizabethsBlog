@@ -1,6 +1,6 @@
-import { ConfessionComponent } from './../confession/confession.component';
+
 import { Component, OnInit } from '@angular/core';
-import { JeremiahComponent } from '../jeremiah/jeremiah.component';
+
 
 @Component({
   selector: 'app-index',
@@ -8,7 +8,8 @@ import { JeremiahComponent } from '../jeremiah/jeremiah.component';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent implements OnInit {
-  articleArr = ['Confession', 'Jeremiah', 'Guilt', 'Smoldering', 'An End'];
+  articleArr = ['Confession', 'Jeremiah', 'Guilt', 'Smoldering', 'An End', 'A God I Can Trust', 'Corrected', 'Filled Even More',
+  'Forever', 'Joy Abound'];
 
 
   constructor() { }

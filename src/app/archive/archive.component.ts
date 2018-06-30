@@ -10,7 +10,7 @@ export class ArchiveComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
+
   }
- 
+
 }

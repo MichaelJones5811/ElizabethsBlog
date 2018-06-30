@@ -1,0 +1,9 @@
+.container-fluid {  
+    background: rgba(255, 255, 255, 0.541);
+    /* text-shadow: 1px 1px #111313; */
+    letter-spacing: 2px;
+    height: 100%;
+    text-align: left;
+    border-style: inset;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+   }

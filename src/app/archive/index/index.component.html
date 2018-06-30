@@ -1,10 +1,11 @@
-<div class='container'>
-  
-    <h1  class="">Prayer Archive</h1>
-
-
-  <ol *ngFor="let articleArr of articleArr">
-    <a routerLink='/archive/{{articleArr | lowercase}}'> {{articleArr}} </a>
-  </ol>
-
+<div class="container-fluid">
+  <div class="row">
+   
+    <div class="col-md-10" id="list">
+      <h1>Prayer Archive</h1>
+      <ol *ngFor="let articleArr of articleArr">
+        <a routerLink='/archive/{{articleArr | lowercase}}'> {{articleArr}} </a>
+      </ol>
+    </div>
+  </div>
 </div>

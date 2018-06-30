@@ -1,0 +1,13 @@
+.container {  
+    color: rgb(11, 11, 27);
+    font-weight: bold;
+    text-shadow: 1px 1px #362c2c;
+    letter-spacing: 2px;
+    height: 100%;
+    text-align: left;
+    padding-top: 20px;
+   
+   }
+   #style{
+    background: white;
+   }

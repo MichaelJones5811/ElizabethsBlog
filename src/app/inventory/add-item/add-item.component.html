@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Add Item to Inventory</h1>
+
+      <form (ngSubmit)='onSubmit(f); f.resetForm()' #f='ngForm'>
+        <div class="form-group">
+          <label for='title'>Item</label>
+          <input id='title' type="text" class='form-control' ngModel name='item' required minlength="3" [(ngModel)]='f.item' #item='ngModel'>
+        </div>
+        <div class="form-group">
+          <label>Picture</label>
+          <input id='pic' class='form-control' type="text" ngModel required name='pic' [(ngModel)]='f.pic' #pic='ngModel'>
+        </div>
+        <div class="form-group">
+          <label>Price</label>
+          <input id='price' class='form-control' type="text" ngModel required name='price' [(ngModel)]='f.price' #body='ngModel'>
+        </div>
+        <div class="form-group">
+          <label>Qty</label>
+          <input id='qty' class='form-control' type="text" ngModel required name='qty' [(ngModel)]='f.qty' #body='ngModel'>
+        </div>
+        <button type='submit' class="btn btn-success" [disabled]='f.invalid'>Submit</button>
+        <div class="service-sumitted" *ngIf="f.submitted">
+          <p>Service has been added</p>
+        </div>
+        <div *ngIf="serverMessage != ''">
+          <div class="alert alert-danger">{{serverMessage}}</div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

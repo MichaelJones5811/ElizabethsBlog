@@ -1,3 +1,9 @@
+import { JoyAboundComponent } from './archive/joy-abound/joy-abound.component';
+import { ForeverComponent } from './archive/forever/forever.component';
+
+import { AGodICanTrustComponent } from './archive/a-god-i-can-trust/a-god-i-can-trust.component';
+import { InventoryComponent } from './inventory/inventory.component';
+import { AddItemComponent } from './inventory/add-item/add-item.component';
 import { AnEndComponent } from './archive/an-end/an-end.component';
 import { AboutComponent } from './about/about.component';
 import { IndexComponent } from './archive/index/index.component';
@@ -17,7 +23,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Component } from '@angular/core';
 import { GuiltComponent } from './archive/guilt/guilt.component';
 import { SmolderingStubsComponent } from './archive/smoldering-stubs/smoldering-stubs.component';
-
+import { CorrectedComponent } from './archive/corrected/corrected.component';
+import { FilledEvenMoreComponent } from './archive/filled-even-more/filled-even-more.component';
 
 
 export const routes: Routes = [
@@ -50,12 +57,25 @@ export const routes: Routes = [
             { path: 'index', component: IndexComponent },
             { path: 'guilt', component: GuiltComponent },
             { path: 'smoldering', component: SmolderingStubsComponent},
-            { path: 'an end', component: AnEndComponent}
+            { path: 'an end', component: AnEndComponent},
+            { path: 'a god i can trust' , component: AGodICanTrustComponent},
+            { path: 'corrected', component: CorrectedComponent},
+            { path: 'filled even more', component: FilledEvenMoreComponent},
+            { path: 'forever', component: ForeverComponent},
+            { path: 'joy abound', component: JoyAboundComponent}
         ]
     },
     {
         path: 'about',
         component: AboutComponent
+    },
+    {
+        path: 'inventory',
+        component: InventoryComponent,
+        children: [
+            { path: 'additem', component: AddItemComponent}
+        ]
+
     }
 
 

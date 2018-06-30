@@ -1,3 +1,7 @@
+
+import { CorrectedComponent } from './archive/corrected/corrected.component';
+import { AGodICanTrustComponent } from './archive/a-god-i-can-trust/a-god-i-can-trust.component';
+import { AddItemService } from './add-item.service';
 import { HomeComponent } from './home/home.component';
 import { AdminServiceService } from './admin-service.service';
 import { BrowserModule } from '@angular/platform-browser';
@@ -26,6 +30,15 @@ import { AboutComponent } from './about/about.component';
 import { GuiltComponent } from './archive/guilt/guilt.component';
 import { SmolderingStubsComponent } from './archive/smoldering-stubs/smoldering-stubs.component';
 import { AnEndComponent } from './archive/an-end/an-end.component';
+import { AddItemComponent } from './inventory/add-item/add-item.component';
+import { InventoryComponent } from './inventory/inventory.component';
+
+import { StoreadminComponent } from './storeadmin/storeadmin.component';
+import { FilledEvenMoreComponent } from './archive/filled-even-more/filled-even-more.component';
+import { ForeverComponent } from './archive/forever/forever.component';
+import { JoyAboundComponent } from './archive/joy-abound/joy-abound.component';
+
+
 
 
 @NgModule({
@@ -49,7 +62,15 @@ import { AnEndComponent } from './archive/an-end/an-end.component';
     AboutComponent,
     GuiltComponent,
     SmolderingStubsComponent,
-    AnEndComponent
+    AnEndComponent,
+    AddItemComponent,
+    InventoryComponent,
+    StoreadminComponent,
+    AGodICanTrustComponent,
+    CorrectedComponent,
+    FilledEvenMoreComponent,
+    ForeverComponent,
+    JoyAboundComponent,
   ],
   imports: [
     BrowserModule,
@@ -59,7 +80,8 @@ import { AnEndComponent } from './archive/an-end/an-end.component';
     RouterModule.forRoot(routes)
   ],
   providers: [
-    AdminServiceService
+    AdminServiceService,
+    AddItemService
   ],
   bootstrap: [AppComponent]
 })
