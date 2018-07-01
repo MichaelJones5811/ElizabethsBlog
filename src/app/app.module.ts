@@ -37,7 +37,8 @@ import { StoreadminComponent } from './storeadmin/storeadmin.component';
 import { FilledEvenMoreComponent } from './archive/filled-even-more/filled-even-more.component';
 import { ForeverComponent } from './archive/forever/forever.component';
 import { JoyAboundComponent } from './archive/joy-abound/joy-abound.component';
-
+import * as $ from 'jquery';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -71,6 +72,7 @@ import { JoyAboundComponent } from './archive/joy-abound/joy-abound.component';
     FilledEvenMoreComponent,
     ForeverComponent,
     JoyAboundComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

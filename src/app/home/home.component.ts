@@ -11,6 +11,9 @@ export class HomeComponent implements OnInit {
   constructor(private _adminServiceService: AdminServiceService) { }
 
   ngOnInit() {
+    (<any>$('.carousel')).carousel({
+      interval: 5000
+    });
     this.retrieveBlog();
   }
   retrieveBlog() {
